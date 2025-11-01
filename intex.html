@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SEK Plumber Cum Electrician | Ehsanullah Khan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo-container">
+        <img src="logo.png" alt="SEK Plumber Cum Electrician Logo" class="logo-image" loading="lazy" />
+        <span class="logo-text">SEK</span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container">
+      <h1>Your Trusted Electrician & Plumber in Tirupattur</h1>
+      <p>Professional repairs, installations, and maintenance — quick, reliable, and affordable.</p>
+      <div class="btn-group">
+        <a href="https://wa.me/917904091790" target="_blank" class="btn-primary">Chat on WhatsApp</a>
+        <button class="btn-secondary" id="bookServiceBtn">Book a Service</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="about-text">
+        <h2>About SEK</h2>
+        <p>With years of hands-on experience in both electrical and plumbing work, <strong>Ehsanullah Khan (SEK)</strong> ensures safe, quick, and quality service for homes and businesses.</p>
+        <p>We pride ourselves on trustworthy service, using the latest tools and ensuring your safety with every job.</p>
+      </div>
+      <div class="about-image">
+        <img src="about.png" alt="Electrician wiring a circuit panel" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🏠</div>
+          <h3>New Home Electrical Connection</h3>
+          <button class="service-btn" onclick="bookService('New Home Electrical Connection')">Book via WhatsApp</button>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💡</div>
+          <h3>Switch & Light Fitting</h3>
+          <button class="service-btn" onclick="bookService('Switch & Light Fitting')">Book via WhatsApp</button>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">⚙️</div>
+          <h3>Motor and Pump Setup</h3>
+          <button class="service-btn" onclick="bookService('Motor and Pump Setup')">Book via WhatsApp</button>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔌</div>
+          <h3>Wiring & Circuit Maintenance</h3>
+          <button class="service-btn" onclick="bookService('Wiring & Circuit Maintenance')">Book via WhatsApp</button>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🚰</div>
+          <h3>Plumbing Repairs & Leak Fixing</h3>
+          <button class="service-btn" onclick="bookService('Plumbing Repairs & Leak Fixing')">Book via WhatsApp</button>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🚿</div>
+          <h3>Bathroom Fittings Installation</h3>
+          <button class="service-btn" onclick="bookService('Bathroom Fittings Installation')">Book via WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Gallery -->
+<section id="gallery">
+  <div class="container">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="Image 1.png" alt="Electrical project example 1" />
+      <img src="Image 2.png"alt="Electrical project example 2" />
+      <img src="image 3.jpg" alt="Plumbing work in progress" />
+      <img src="image 4.jpg" alt="Finished bathroom installation" />
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Your Name *</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message / Service Required *</label>
+          <textarea id="message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send via WhatsApp</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Contact Directly</h3>
+        <a href="tel:+917904091790">📞 Call Now: 7904091790</a>
+        <a href="https://wa.me/917904091790" target="_blank">💬 WhatsApp Chat</a>
+        <a href="mailto:khanehsanullah55@gmail.com">✉️ Email: khanehsanullah55@gmail.com</a>
+        <h3>Address</h3>
+        <p>313, Ismailpet, Tirupattur - 635 601</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SEK. All rights reserved. Developed by Ehsanullah Khan.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
